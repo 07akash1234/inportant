@@ -43,10 +43,10 @@ ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
 	border1=createSprite(width/2,650,200,20);
 	border1.shapeColor=("red")
 	
-	border2=createSprite(290,610,20,100);
+	border2=createSprite(290,620,20,100);
 	border2.shapeColor=("red")
 	
-	border3=createSprite(510,610,20,100);
+	border3=createSprite(490,620,20,100);
 	border3.shapeColor=("red")
 
 
