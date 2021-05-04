@@ -43,10 +43,10 @@ ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
 	border1=createSprite(width/2,650,200,20);
 	border1.shapeColor=("red")
 	
-	border2=createSprite(290,620,20,100);
+	border2=createSprite(290,635,20,100);
 	border2.shapeColor=("red")
 	
-	border3=createSprite(490,620,20,100);
+	border3=createSprite(490,635,20,100);
 	border3.shapeColor=("red")
 
 
@@ -74,8 +74,7 @@ function draw() {
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
   
-  border1.x=border1Body.position.x
-  border1.y=border1Body.position.y
+  
 
   drawSprites();
  
